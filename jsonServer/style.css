@@ -1,0 +1,23 @@
+.autor h2, h3, h5, p {
+border: 2px solid green;
+
+}
+
+
+.inputData {
+border: 2px solid green;
+
+
+}
+
+.imieAutora {
+height: 100px;
+text-align: center;
+}
+
+.opisKsiazki {
+height: 100px;
+    text-align: center;
+}
+
+

@@ -1,0 +1,49 @@
+.checkbox {
+    display: grid;
+    grid-template-columns: auto auto auto;
+/*    background-color: #2196F3;*/
+    padding: 10px;
+
+
+}
+/*=======================END OF CHECKBOX=====================*/
+
+.tabelaA {
+    border: 3px solid black;
+    text-align: center;
+    margin-bottom: 20px;
+    color: red;
+}
+
+.colMain {
+   position: relative;
+    border: 3px solid black;
+    margin: 4px;
+    min-height: 250px;
+  
+}
+.mainBtn {
+    position: absolute;
+    bottom: 0;
+    width:100%;
+    
+    
+}
+#select{
+    position: absolute;
+    width: 100%;
+}
+.containerMain {
+    display:grid;
+    grid-template-columns: 33% 33% 33%;
+
+}
+#inputDate{
+    position: absolute;
+    border:none;
+    
+}
+p {
+    padding: 5px;
+}
+/*====================END OF CONTAINER & BUTTONS===================*/

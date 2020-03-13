@@ -1,28 +1,284 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <title>Document</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>M.G Front-End Developer</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./icons">
+    <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Serif:300|Roboto:300&display=swap" rel="stylesheet">
+    <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+
+
+
 </head>
+
 <body>
-   <div class="mainContainer">
-      <div class="mainHeader"></div>
-      <li>STRONA GŁÓWNA</li>
-      <li>O NAS</li>
-      <li>CO ROBIMY?</li>
-      <li>PORTFOLIO</li>
-      <li>KONTAKT</li>
-       
-       
-       
-       
-       
-       
-   </div>
-   
-   
-   
-    <script href="./js/main.js"></script>
+
+    <div class="mainNavBar" id="main-nav">
+        <div class="dropdown show">
+            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Menu
+            </button>
+
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                <a class="dropdown-item" href="#mainPage">STRONA GŁÓWNA</a>
+                <a class="dropdown-item" href="#aboutMe">O NAS</a>
+                <a class="dropdown-item" href="#skills">CO ROBIMY?</a>
+                <a class="dropdown-item" href="#portfolio">PORTFOLIO</a>
+                <a class="dropdown-item" href="#contact">KONTAKT</a>
+            </div>
+        </div>
+        <!--
+        <ul style="text-decoration:none">
+            <a href="#main">STRONA GŁÓWNA</a>
+            <a href="#aboutMe">O NAS</a>
+            <a href="#skills">CO ROBIMY?</a>
+            <a href="#portfolio">PORTFOLIO</a>
+            <a href="#contact">KONTAKT</a>
+        </ul>
+-->
+        <!--
+            </checkbox>
+        </label>
+-->
+
+
+
+    </div>
+    <section id="mainPage">
+    <div class="mainContainer" id=”main-header”>
+        <div class="main-header-content">
+            <h1>Michał <span>Grubski</span></h1>
+            <h2>Front-End Developer</h2>
+        </div>
+    </div>
+</section>
+
+    <!--
+    <section class="mainContainerAbout" id="aboutMe">
+
+        <h2>O <span>mnie</span></h2>
+
+        ======wersja oryginalna - moja ====
+        
+
+        <figure><img src="./img/jan-nowak.jpg" alt="jan-nowak"></figure>
+-->
+    <section class="container mainContainerAbout" id="aboutMe">
+        <div class="row">
+            <div class="col-sm-12">
+                <h2>O <span>mnie</span></h2>
+            </div>
+            <div class="col-sm-12 col-md-4">
+                <figure><img src="./img/jan-nowak.jpg" alt="jan-nowak"></figure>
+            </div>
+            <div class="col-sm-12 col-md-8">
+
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque suscipit libero molestiae, est ipsum. Ipsam aliquam explicabo labore eveniet, ea vel voluptas dolor. Officiis ex consequuntur, aut repellat quod assumenda.
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam et magni libero hic vitae
+                    deserunt
+                    placeat mollitia ducimus magnam. Soluta, totam saepe non magnam, architecto sed aliquid pariatur
+                    error
+                    impedit alias aperiam numquam hic ipsam blanditiis deleniti assumenda a eligendi quod illo
+                    suscipit?
+                    Vitae obcaecati voluptatem voluptatum dolor cum minus rerum, magni illum eos porro a itaque est,
+                    ab
+                    soluta ducimus doloremque dolorem debitis atque quasi sequi distinctio ea fuga.</p>
+
+            </div>
+        </div>
+    </section>
+    <br>
+
+    <section class="container mainContainerSkills" id="skills">
+        <div class="row">
+            <div class="col-sm-12">
+                <h2>Moje<span> Umiętności</span></h2>
+            </div>
+            <div class="col-sm-12 col-md-12">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus aliquam non tempore a dolorem dignissimos consequuntur possimus odio, quam laudantium vitae impedit ipsam accusamus veniam quae, quidem maiores! Hic, doloremque!</p>
+                <div class="col-sm-12 col-md-8 col-lg-10">
+                    <div id="skills-icons">
+                        <figure> <img src="./icons/css3.png" alt="css">
+                            <br>
+                            <figcaption>CSS</figcaption>
+                        </figure>
+                        <figure> <img src="./icons/html5.png" alt="html">
+                            <br>
+                            <figcaption>HTML</figcaption>
+                        </figure>
+                        <figure> <img src="./icons/jquery.png" alt="jq">
+                            <br>
+                            <figcaption>jQuery</figcaption>
+                        </figure>
+                        <figure> <img src="./icons/js.png" alt="js">
+                            <br>
+                            <figcaption>JavaScript</figcaption>
+                        </figure>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--
+    <section class="container mainContainerPortfolio" id="portfolio">
+        <div class="row">
+            <div class="col-sm-12">
+                <h2>Moje <span>portfolio</span></h2>
+            </div>
+            <div class="col-sm-12 col-md-12">
+                <div class="portfolio-items">
+                    <div class="portfolio-item" id="portfolio-item-1">
+                        <div class="item-mask">
+
+                        </div>
+                    </div>
+                    <div class="portfolio-item" id="portfolio-item-2">
+                        <div class="item-content">
+                            <div class="item-mask">
+                                <div class="item-content-inner">
+                                    <h3>OPIS</h3>
+                                    <p>Opis Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur recusandae delectus neque magni sapiente. Odio ad sed reiciendis libero necessitatibus!</p>
+                                    <h4>Wykorzystano technologie:</h4>
+                                    <p>HTML5, CSS, JS, RWD, jQuery, BOOTSTRAP</p>
+                                    <i class="fa fa-link" aria-hidden="true"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio-item" id="portfolio-item-3">
+                        <div class="item-mask">
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+-->
+    <div class="container-fluid" id="portfolio">
+        <p class="h2 headline" id="portfolio_span">Moje <span class="sec-txt headline">portfolio</span></p>
+        <div class="row portfolio-items">
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <div class="portfolio-item" id="portfolio-item-1">
+                    <div class="item-mask">
+
+                    </div>
+                </div>
+            </div>
+            <br>
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <div class="portfolio-item" id="portfolio-item-2">
+                    <div class="item-content">
+                        <div class="item-mask">
+                            <div class="item-content-inner">
+                                <h3>OPIS</h3>
+                                <p>Opis Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur recusandae delectus neque magni sapiente. Odio ad sed reiciendis libero necessitatibus!</p>
+                                <h4>Wykorzystano technologie:</h4>
+                                <p>HTML5, CSS, JS, RWD, jQuery, BOOTSTRAP</p>
+                                <i class="fa fa-link" aria-hidden="true"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <div class="portfolio-item" id="portfolio-item-3">
+                    <div class="item-mask">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <br>
+    <!-- WERSJA POPRZEDNIA - MOJA. 08.2019
+    <section id="contact">
+        <div class="row">
+            <div class="contact-data">
+                <div class="col-sm-8">
+                    <h2> Michał <span>Grubski</span></h2>
+                </div>
+                <div class="col-sm-12 col-md-12">
+                    <adress>
+                        <ul>ul.Ćwiartki 3/4 <br>
+                            90-001 Kołomyje <br>
+                            <br>
+                            email: <a style="text-decoration:none" href="mailto:spamonly0000@gmail.com">spamonly0000@gmail.com</a> <br>
+                            Telefon kontaktowy: <a style="text-decoration:none" href="callto:535225791">535225791</a>
+                        </ul>
+                    </adress>
+
+                    <div class="contact-social-icons">
+                        <a href="https://twitter.com/?lang=pl"> <i class="fab fa-twitter-square"></i></a>
+                        <a href="https://www.facebook.com/"><i class="fab fa-facebook-square"></i></a>
+                        <a href="https://www.instagram.com/?hl=pl"><i class="fab fa-snapchat-square"></i></a>
+                    </div>
+
+
+                    <div class="contact-form">
+                        <input type="text" placeholder="Imię i nazwisko"><br>
+                        <input type="text" placeholder="adresik imejlowy"><br>
+                        <input placeholder="Co Ci chodzi po głowie?" style="height:200px"><br>
+                        <input id="wyslij" type="submit" placeholder="Wyślij">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+-->
+
+    <section id="contact">
+
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-sm-12">
+
+                    <h2> Michał <span>Grubski</span></h2>
+                    ul.Ćwiartki 3/4 <br>
+                    90-001 Kołomyje <br>
+                    <br>
+                    email: <a style="text-decoration:none" href="mailto:spamonly0000@gmail.com">spamonly0000@gmail.com</a> <br>
+                    Telefon kontaktowy: <a style="text-decoration:none" href="callto:535225791">535225791</a>
+                </div>
+                <div class="col-lg-6 col-sm-12">
+                    <div class="contact-form">
+                        <form action="">
+                            <input type="text" placeholder="Imię i nazwisko"><br>
+                            <input type="text" placeholder="adresik imejlowy"><br>
+                            <textarea placeholder="Co Ci chodzi po głowie?" cols="30" rows="5"></textarea><br>
+                            <input id="wyslij" type="submit" placeholder="Wyślij">
+                        </form>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+    <footer>
+        <p>Copyright © Michał Gie</p>
+    </footer>
+
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="https://kit.fontawesome.com/1372cd8f34.js"></script>
+    <script src="/js/main.js"></script>
 </body>
+
 </html>

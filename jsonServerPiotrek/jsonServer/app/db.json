@@ -1,0 +1,67 @@
+{
+  "books": [
+    {
+      "id": 1,
+      "title": "Ogniem i Mieczem",
+      "author": "Henryk Sienkiewicz",
+      "description": "sth",
+      "type": 4
+    },
+    {
+      "author": "2",
+      "description": "3333",
+      "type": "1",
+      "id": 2
+    },
+    {
+      "title": "amba",
+      "author": "fatima",
+      "description": "bylo i ni ma",
+      "type": "1",
+      "id": 3
+    },
+    {
+      "title": "amba",
+      "author": "fatima",
+      "description": "bylo i ni ma",
+      "type": "2",
+      "id": 4
+    },
+    {
+      "title": "",
+      "author": "",
+      "description": "",
+      "type": "1",
+      "id": 5
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "selectGatunek": [
+    {
+      "id": 1,
+      "name": "Kryminał"
+    },
+    {
+      "id": 2,
+      "name": "Sensacja"
+    },
+    {
+      "id": 3,
+      "name": "Romans"
+    },
+    {
+      "id": 4,
+      "name": "Powieść historyczna"
+    },
+    {
+      "id": 5,
+      "name": "Horror"
+    }
+  ]
+}

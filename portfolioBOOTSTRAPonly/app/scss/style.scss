@@ -1,0 +1,67 @@
+body {
+    
+    .headerAndNav {
+        background-image: url("../img/header/pictures_on_the_wall.jpg");
+        background-size: cover;
+        width: 100%;
+        height: 40rem;
+        color:white;
+    }
+
+    .container-fluid {
+
+
+        .row {
+            .header {
+                background-position: center;
+                text-align: center;
+                top:100px;
+                left:1200px;
+                position:relative;
+            }
+        }
+    }
+
+    .services {
+        background-color: whitesmoke;
+
+        .ServicesIcon {
+            i {
+                font-size: 40px;
+                background-color: aqua;
+                border: 20px solid aqua;
+                border-color: aqua;
+                border-radius: 50%;
+                color: white;
+            }
+
+            p {
+                font-size: 20px;
+            }
+        }
+    }
+
+    .portfolio {
+        .container{
+            .row pics{
+                .col-sm-4{
+                    .photo1{
+                        background-image: url("../img/portfolio/box_of_cookies.jpg");
+                        
+                    }
+                }
+            }
+        }
+        
+        .pics2{
+            display: grid;
+            grid-template-columns: auto auto;
+            grid-template-rows: auto auto;
+            background-size: cover;
+            /* <-- background size */
+            background-position: center;
+
+        }
+    }
+
+}

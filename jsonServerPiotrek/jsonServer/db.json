@@ -1,0 +1,242 @@
+{
+  "books": [
+    {
+      "id": 1,
+      "title": "Ogniem i Mieczem",
+      "author": "Henryk Sienkiewicz",
+      "description": "sth",
+      "type": 4
+    },
+    {
+      "author": "2",
+      "description": "3333",
+      "type": "1",
+      "id": 2
+    },
+    {
+      "title": "amba",
+      "author": "fatima",
+      "description": "bylo i ni ma",
+      "type": "1",
+      "id": 3
+    },
+    {
+      "title": "amba",
+      "author": "fatima",
+      "description": "bylo i ni ma",
+      "type": "2",
+      "id": 4
+    },
+    {
+      "title": "",
+      "author": "",
+      "description": "",
+      "type": "1",
+      "id": 5
+    },
+    {
+      "title": "",
+      "author": "",
+      "description": "",
+      "type": "1",
+      "id": 6
+    },
+    {
+      "title": "",
+      "author": "",
+      "description": "",
+      "type": "1",
+      "id": 7
+    },
+    {
+      "title": "t4rew",
+      "author": "twe",
+      "description": "tew",
+      "type": "2",
+      "id": 8
+    },
+    {
+      "title": "",
+      "author": "",
+      "description": "",
+      "type": "1",
+      "id": 9
+    },
+    {
+      "title": "",
+      "author": "",
+      "description": "",
+      "type": "1",
+      "id": 10
+    },
+    {
+      "title": "wfe",
+      "author": "few",
+      "description": "efw",
+      "type": "1",
+      "id": 11
+    },
+    {
+      "title": "ewf",
+      "author": "efw",
+      "description": "few",
+      "type": "1",
+      "id": 12
+    },
+    {
+      "title": "few",
+      "author": "few",
+      "description": "few",
+      "type": "1",
+      "id": 13
+    },
+    {
+      "title": "gre",
+      "author": "gre",
+      "description": "gre",
+      "type": "1",
+      "id": 14
+    },
+    {
+      "title": "gre",
+      "author": "gre",
+      "description": "gre",
+      "type": "1",
+      "id": 15
+    },
+    {
+      "title": "",
+      "author": "",
+      "description": "",
+      "type": "1",
+      "id": 16
+    },
+    {
+      "title": "bdf",
+      "author": "bdf",
+      "description": "bfd",
+      "type": "1",
+      "id": 17
+    },
+    {
+      "title": "",
+      "author": "",
+      "description": "",
+      "type": "1",
+      "id": 18
+    },
+    {
+      "title": "hrt",
+      "author": "htr",
+      "description": "htr",
+      "type": "1",
+      "id": 19
+    },
+    {
+      "title": "hrt",
+      "author": "htr",
+      "description": "htr",
+      "type": "1",
+      "id": 20
+    },
+    {
+      "title": "hrt",
+      "author": "htr",
+      "description": "htr",
+      "type": "1",
+      "id": 21
+    },
+    {
+      "title": "gre",
+      "author": "gre",
+      "description": "gre",
+      "type": "1",
+      "id": 22
+    },
+    {
+      "title": "",
+      "author": "",
+      "description": "",
+      "type": "1",
+      "id": 23
+    },
+    {
+      "title": "tew",
+      "author": "tew",
+      "description": "tew",
+      "type": "1",
+      "id": 24
+    },
+    {
+      "title": "htr",
+      "author": "htr",
+      "description": "htr",
+      "type": "1",
+      "id": 25
+    },
+    {
+      "title": "eyre",
+      "author": "yre",
+      "description": "yre",
+      "type": "1",
+      "id": 26
+    },
+    {
+      "title": "eyr",
+      "author": "yre",
+      "description": "yre",
+      "type": "3",
+      "id": 27
+    },
+    {
+      "title": "htr",
+      "author": "htr",
+      "description": "htr",
+      "type": "1",
+      "id": 28
+    },
+    {
+      "title": "few",
+      "author": "few",
+      "description": "few",
+      "type": "1",
+      "id": 29
+    },
+    {
+      "title": "few",
+      "author": "few",
+      "description": "few",
+      "type": "1",
+      "id": 30
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "selectGatunek": [
+    {
+      "id": 1,
+      "name": "Kryminał"
+    },
+    {
+      "id": 2,
+      "name": "Sensacja"
+    },
+    {
+      "id": 3,
+      "name": "Romans"
+    },
+    {
+      "id": 4,
+      "name": "Powieść historyczna"
+    },
+    {
+      "id": 5,
+      "name": "Horror"
+    }
+  ]
+}

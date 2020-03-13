@@ -1,0 +1,79 @@
+@import 'setings.scss';
+
+body {
+    .main-nav {
+        justify-content: flex-start;
+        background-color: $colorBg;
+
+        .main-nav-a {
+            color: white;
+        }
+    }
+
+    .main-title {
+        border: 2px solid green;
+        width: 35%;
+        margin: 1rem auto;
+        text-align: center;
+        word-wrap: break-word;
+
+        .main-all-book-one {
+            margin-bottom: 1rem;
+        }
+
+        .main-all-book-one-card {
+            width: 18rem;
+            margin: auto;
+        }
+    }
+    #books{
+        display:grid;
+        grid-template-columns: auto auto auto;
+        grid-gap: 1rem;
+    }
+
+}
+
+@media(min-width:100px) and (max-width:576px) {
+    body {
+        .main-nav {
+            justify-content: flex-start;
+            background-color: pink;
+
+            .main-nav-a {
+                color: green;
+            }
+        }
+
+        .main-title {
+            border: 2px solid green;
+            width: 100%;
+            margin-top: 1rem;
+            text-align: center;
+            word-wrap: break-word;
+
+            .main-all-book-one {
+                margin-bottom: 1rem;
+            }
+
+            .main-all-book-one-card {
+                width: 18rem;
+                margin: auto;
+            }
+        }
+    #books{
+        display:grid;
+        grid-template-columns: auto auto;
+        grid-gap: 1rem;
+    }
+    }
+
+
+
+
+
+
+
+
+
+}

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="checkbox">
+
+        <div class="tabelaA">
+            <input class="form-check-input" type="radio" name="tabelka" id="inlineCheckbox1" value="a">
+            <label class="form-check-label" for="inlineCheckbox1">Tabela A</label>
+        </div>
+        <div class="tabelaA">
+            <input class="form-check-input" type="radio" name="tabelka" id="inlineCheckbox2" value="b">
+            <label class="form-check-label" for="inlineCheckbox2">Tabela B</label>
+        </div>
+        <div class="tabelaA">
+            <input class="form-check-input" type="radio" name="tabelka" id="inlineCheckbox3" value="c">
+            <label class="form-check-label" for="inlineCheckbox3">Tabela C</label>
+        </div>
+    </div>
+    <div class="containerMain">
+
+        
+            <div class="colMain">
+               <p>Wybierz datę, aby pobrać ceny z tego dnia, lol</p>
+                <button type="button" class="btn btn-outline-primary mainBtn" name="btnDate" >Pobierz dane</button>
+                <input type="date" id="inputDate">
+            </div>
+            <div class="colMain">
+               <p>Klikajac w przycisk pobierzesz kurs walut z dnia wraz poprzedzajacymi dniami ktorych liczbe wybierzesz w ponizszym selekcie</p>
+               <select name="select-ilosc" id="select">
+                   <option value="0">Ilość 1</option>
+                   <option value="1">Ilość 2</option>
+                   <option value="2">Ilość 3</option>
+               </select>
+                <button type="button" class="btn btn-outline-primary mainBtn">Pobierz dane</button>
+            </div>
+            <div class="colMain">
+            <p>Kurs dla konkretnej waluty</p>
+               <label for="inputDate">data kursu walut <span id="spanData"></span></label> <br>
+               <input type="date" id="inputDate">
+               
+                <button type="button" class="btn btn-outline-primary mainBtn" onclick="getTable()">Pobierz dane</button>
+            </div>
+       
+
+            <div class="colMain">
+               <p>Data poczatkowa</p>
+                <input type="date" id="inputDate"> <br>
+                <p>Data koncowa</p>
+                <input type="date" id="inputDate"> <br>
+                <button type="button" class="btn btn-outline-primary mainBtn">Pobierz dane</button>
+            </div>
+            <div class="colMain">
+                   <p>Po podaniu daty wyswietl kurs z danego dnia</p>
+                   <input type="date" id="inputDate">
+                <button type="button" class="btn btn-outline-primary mainBtn">Pobierz dane</button>
+            </div>
+            
+       
+    </div>
+ <div id="app">
+     
+     
+     
+ </div>
+
+
+
+
+
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="main.js"></script>
+</body>
+
+</html>
